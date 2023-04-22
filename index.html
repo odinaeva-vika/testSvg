@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/style.min.css?_v=20230421113504">
+  <title>Главная</title>
+</head>
+<body>
+  <div class="wrapper">
+    <header class="header">
+  <div class="container">
+    <div class="header__inner">
+      <h1 class="logo">Одинаева Виктория</h1>
+      <p>Тестовое задание HTML-вёрстка</p>
+    </div>
+  </div>
+</header>
+    <main class="main">
+      <div class="container">
+        <div class="canvas">
+          <svg class="diagram" width="200" height="200" viewBox="0 0 36 36">
+            <circle r="15.9" cx="50%" cy="50%"></circle>
+            <circle class="diagram__circle" r="15.9" cx="50%" cy="50%"></circle>
+            <circle class="diagram__circle" r="15.9" cx="50%" cy="50%"></circle>
+            <div class="diagram__content">
+              <div class="diagram__number" id="counter">1</div>
+              <span class="diagram__number-percent">%</span>
+              <span class="diagram__number1">.7</span>
+              <div class="diagram__text-item1">Лояльность</div>
+              <div class="diagram__text-item2">ниже среднего</div>
+              <div class="diagram__text-item3">по отрасли FMCG <br>значений слева от медианы <br>52.0% - 83.1%</div>
+              <div class="diagram__text-item4">3.1</div>
+            </div>
+          </svg>
+          <svg class="line" viewBox="0 0 55 55">
+            <polyline points="14.5,1 10,1 9,2 9,47"></polyline>
+            <polyline points="9,42.5 12,42.5"></polyline>
+            <polyline points="7.7,50 10.5,50"></polyline>
+            <polyline points="9,48.5 9,51.2"></polyline>
+            <polyline points="9,52 9,53.5 9.5,54 11,54"></polyline>
+          </svg>
+        </div>
+
+        <table class="table">
+          <tr>
+            <th class="table__title" rowspan="2">Промоутеры</th>
+            <td class="table__number-item1">32.0%</td>
+            <td class="table__number-promoter" rowspan="2">+1.2%</td>
+          </tr>
+          <tr>
+            <td class="table__person">81</td>
+          </tr>
+          <tr>
+            <th class="table__title" rowspan="2">Скептики</th>
+            <td class="table__number-item1">39.1%</td>
+            <td class="table__number-skeptic" rowspan="2">+4.8%</td>
+          </tr>
+          <tr>
+            <td class="table__person">8</td>
+          </tr>
+          <tr>
+            <th class="table__title" rowspan="2">Критики</th>
+            <td class="table__number-item1">79.8%</td>
+            <td class="table__number-critic" rowspan="2">-9.7%</td>
+          </tr>
+          <tr>
+            <td class="table__person">7</td>
+          </tr>
+        </table>
+      </div>
+    </main>
+    <footer>футер</footer>
+  </div>
+  <script src="js/app.min.js?_v=20230421113504"></script>
+</body>
+</html>
